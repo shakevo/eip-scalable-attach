@@ -7,7 +7,7 @@ AutoScalingGroupでスケールアウトされたインスタンスに対し、
 固定化された接続情報(PublicIP)が必要になった場合。  
 
 ## 実行の前提条件
-・Amazon Linux2、かつ jqをインストール済み
+・Amazon Linux2、かつ jqをインストール済み  
 ・AWS側で、このシェル実行に利用されるEIPを予めプーリングしておく  
 ・必要なプーリングEIPの数は、スケールアウトの最大数*2  
 ・eip_alloc_idsは任意のID指定に書き換える  
