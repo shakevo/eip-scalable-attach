@@ -28,8 +28,8 @@ ExecStart=/home/ec2-user/eip_scalable_attach/eip_scalable_attach.sh
 [Install]
 WantedBy=multi-user.target
 
-[root@ip-172-xxx-xxx-xxx ec2-user]# systemctl enable zel_eip_auto_attach.service
-[root@ip-172-xxx-xxx-xxx system]# systemctl is-enabled zel_eip_auto_attach.service 
+[root@ip-172-xxx-xxx-xxx ec2-user]# systemctl enable eip_scalable_attach.service
+[root@ip-172-xxx-xxx-xxx system]# systemctl is-enabled eip_scalable_attach.service
 enabled
 ```
 
